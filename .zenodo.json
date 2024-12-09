@@ -1,54 +1,123 @@
 {
+    "access_right": "open",
     "creators": [
         {
             "name": "Alvarez Pol, Hector",
-            "orcid": "0000-0001-9643-6252"
+            "orcid": "0000-0001-9643-6252",
+            "email": "hector.alvarez@usc.es",
+            "affiliation": "IGFAE, University of Santiago de Compostela, 15782 Santiago de Compostela, Spain"
         },
         {
             "name": "Ayyad, Yassid",
-            "orcid": "0000-0001-8604-4976"
+            "orcid": "0000-0001-8604-4976",
+            "email": "yassid.ayyad@usc.es",
+            "affiliation": "IGFAE, University of Santiago de Compostela, 15782 Santiago de Compostela, Spain"
         },
         {
             "name": "Duer, Meytal",
-            "orcid": "0000-0002-4241-1938"
+            "orcid": "0000-0002-4241-1938",
+            "email": "mduer@ikp.tu-darmstadt.de",
+            "affiliation": "Technische Universität Darmstadt, Fachbereich Physik, Institut für Kernphysik, 64289 Darmstadt, Germany"
         },
         {
-            "name": "Rodriguez Sanchez, Jose Luis",
-            "orcid": "0000-0002-4702-5294"
+            "name": "Ji, Liancheng",
+            "affiliation": "Technische Universität Darmstadt, Fachbereich Physik, Institut für Kernphysik, 64289 Darmstadt, Germany"
         },
         {
-            "name": "Velardita, Simone"
+            "name": "Rodríguez-Sánchez, Jose Luis",
+            "orcid": "0000-0002-4702-5294",
+            "email": "j.l.rodriguez.sanchez@udc.es",
+            "affiliation": "CITENI, Industrial Campus of Ferrol, University of Coruña, 15403 Ferrol, Spain"
+        },
+        {
+            "name": "Sun, Yelei",
+            "orcid": "0000-0003-3202-7032",
+            "affiliation": "Technische Universität Darmstadt, Fachbereich Physik, Institut für Kernphysik, 64289 Darmstadt, Germany"
+        },
+        {
+            "name": "Velardita, Simone",
+            "affiliation": "Technische Universität Darmstadt, Fachbereich Physik, Institut für Kernphysik, 64289 Darmstadt, Germany",
+            "orcid": "0000-0003-1310-1030"
         }
     ],
     "contributors": [
         {
             "type": "Other",
+            "name": "Obertelli, Alexandre",
+            "orcid": "0000-0001-8773-7942",
+            "affiliation": "Technische Universität Darmstadt, Fachbereich Physik, Institut für Kernphysik, 64289 Darmstadt, Germany"
+        },
+        {
+            "type": "Other",
             "name": "Wang, Yanzhao",
-            "orcid": "0000-0002-7006-7986"
+            "orcid": "0000-0002-7006-7986",
+            "affiliation": "Universität zu Köln, 50923 Köln, Germany"
         }
     ],
-    "description": "GLAD-TPC (HYDRA) is part of the R3BRoot software, the Monte Carlo simulation and experimental data analysis of the R3B (Reactions with Relativistic Radioactive Beams) nuclear physics experiments at the FAIR research center (Facility for Antiproton and Ion Research).",
+    "description": "The GLAD-TPC (Time Projection Chamber) detector, also known as HYDRA, is part of the R3B (Reactions with Relativistic Radioactive Beams) experimental setup at the GSI/FAIR research center (Facility for Antiproton and Ion Research). The GLAD-TPC software allows for Monte Carlo simulations and experimental data analysis, enabling seamless integration with the data analysis workflows of other R3B detectors. This state-of-the-art tracking detector is crucial to the R3B research program, supporting detailed investigations into light hypernuclei and the production background of baryonic resonances.",
     "related_identifiers": [
         {
-            "identifier": "https://github.com/R3BRootGroup/glad-tpc/",
-            "relation": "isSupplementTo",
+            "identifier": "https://github.com/FairRootGroup/FairSoft/",
+            "relation": "isDerivedFrom",
             "resource_type": "software",
+            "scheme": "url"
+        },
+        {
+            "identifier": "https://github.com/FairRootGroup/FairRoot/",
+            "relation": "isDerivedFrom",
+            "resource_type": "software",
+            "scheme": "url"
+        },
+        {
+            "identifier": "https://github.com/R3BRootGroup/R3BRoot/",
+            "relation": "isDerivedFrom",
+            "resource_type": "software",
+            "scheme": "url"
+        },
+        {
+            "identifier": "https://gitlab.com/chalmers-subexp/ucesb/",
+            "relation": "isRelatedTo",
+            "resource_type": "software",
+            "scheme": "url"
+        },
+        {
+            "identifier": "https://github.com/R3BRootGroup/glad-tpc/blob/dev/README.md",
+            "relation": "isDocumentedBy",
+            "resource_type": "publication-softwaredocumentation",
             "scheme": "url"
         }
     ],
     "title": "GLAD-TPC Software",
     "upload_type": "software",
+    "softwareRequirements": [
+        "FairSoft, FairRoot, R3BRoot"
+    ],
+    "programmingLanguage": [
+        "C",
+        "C++"
+    ],
+    "runtimePlatform": [
+        "ROOT"
+    ],
+    "operatingSystem": [
+        "Linux",
+        "macOS"
+    ],
+    "license": "LGPL-3.0-only",
     "keywords": [
         "Geant4",
         "c-plus-plus",
         "cmake",
         "vmc",
         "modular",
-        "Event reconstruction",
+        "Time projection chamber",
+        "Track reconstruction",
         "Simulation",
         "Data analysis",
         "Structure and dynamics of nuclei",
         "Nuclear reactions",
-        "Hypernuclei"
+        "Hypernuclei",
+        "GLAD-TPC/R3B experiments",
+        "GSI/FAIR facility"
     ]
 }

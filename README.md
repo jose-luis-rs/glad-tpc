@@ -1,12 +1,18 @@
-# GLAD-TPC Software [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14291537.svg)](https://doi.org/10.5281/zenodo.14291537)
+# GLAD-TPC Software [![license](https://alfa-ci.gsi.de/shields/badge/license-GPL--3.0-orange.svg)](COPYRIGHT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14291537.svg)](https://doi.org/10.5281/zenodo.14291537)
 
 [![static analysis](https://github.com/R3BRootGroup/glad-tpc/actions/workflows/static_analysis.yml/badge.svg)](https://github.com/R3BRootGroup/glad-tpc/actions/workflows/static_analysis.yml) [![CI-CD](https://github.com/R3BRootGroup/glad-tpc/actions/workflows/main.yml/badge.svg)](https://github.com/R3BRootGroup/glad-tpc/actions/workflows/main.yml)
 
 ## The GLAD-TPC Framework
 
-GLAD-TPC (HYDRA) is part of the R3BRoot software, the Monte Carlo simulation and experimental data analysis of the R3B (Reactions with Relativistic Radioactive Beams) nuclear physics experiments at the FAIR research center (Facility for Antiproton and Ion Research).
+The GLAD-TPC (Time Projection Chamber) detector, also known as HYDRA, is part of the R3B (Reactions with Relativistic Radioactive Beams) experimental setup at the GSI/FAIR research center (Facility for Antiproton and Ion Research). The GLAD-TPC software allows for Monte Carlo simulations and experimental data analysis, enabling seamless integration with the data analysis workflows of other R3B detectors within the [R3BRoot](https://github.com/R3BRootGroup/R3BRoot) software. GLAD-TPC is a source distribution with recurring releases for macOS and Linux.
+
+## Discussion Forum
 
 For the software-related user support you can post a new topic on our [forum](https://forum.gsi.de/index.php?t=index&cat=40&).
+
+## License
+
+GLAD-TPC is distributed under the terms of the GNU Lesser General Public Licence version 3 ([GPLv3](https://github.com/R3BRootGroup/glad-tpc/blob/dev/LICENSE)).
 
 ## Release Information
 Please visit [releases](https://github.com/R3BRootGroup/glad-tpc/releases)
