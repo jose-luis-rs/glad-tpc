@@ -22,7 +22,7 @@ Please ask your questions, request features, and report issues by [creating a gi
 
 ## Using the Project Template
 
-GLAD-TPC as part of R3BRoot delivers various project templates that can be used as a starting point for anybody who would like to build simulation and reconstruction algorithms. The project Templates are located in the [R3BRoot/template](template) directory.
+GLAD-TPC as part of R3BRoot delivers various project templates that can be used as a starting point for anybody who would like to build simulation and reconstruction algorithms. The project Templates are located in the [R3BRoot/template](https://github.com/R3BRootGroup/R3BRoot/tree/dev/template) directory.
 
 ## Code Formatting
 The GLAD-TPC project (as part of R3BRoot) uses clang-format-15 to ensure a common code formatting. The script "apply-format.sh" can be used for this purpose: 
@@ -35,9 +35,9 @@ bash apply-format.sh
 ### Required software
 
 First, you will need to install FairSoft, FairRoot and R3BRoot. For more details: [instructions](https://www.r3broot.gsi.de/installation). 
-FaiSoft version: nov22p1 or later
-FairROOT version: v18.2.1 or later
-Newer versions will not work properly with the simulation.
+- FaiSoft version: nov22p1 or later
+- FairROOT version: v18.2.1 or later
+
 
 ### Configure and compile
 
